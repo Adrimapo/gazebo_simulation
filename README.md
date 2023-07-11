@@ -1,7 +1,7 @@
 # P5-MundoGazebo
 
 <div align = center>
-  <img src = "https://github.com/clases-julio/p5-mundogazebo-amadinabeitia2020/blob/main/fig/robot.png"
+  <img src = "https://github.com/madinabeip/gazebo_simulation/blob/main/fig/robot.png"
      alt="Robot"  />
 </div>
 
@@ -101,7 +101,7 @@ To add the models to the simulator, we took advantage of the Docker by using the
 ```
 
 <div align = center>
-  <img src = "https://github.com/clases-julio/p5-mundogazebo-amadinabeitia2020/blob/main/fig/scenario.png"
+  <img src = "https://github.com/madinabeip/gazebo_simulation/blob/main/fig/scenario.png"
      alt="Robot"  />
 </div>
 
@@ -211,7 +211,7 @@ The graphical user interface was created using PyQt5, and the qtdesigner tool wa
 1. First, we created our interface and saved it.
 
 <div align = center>
-  <img src = "https://github.com/clases-julio/p5-mundogazebo-amadinabeitia2020/blob/main/fig/interface.png"
+  <img src = "https://github.com/madinabeip/gazebo_simulation/blob/main/fig/interface.png"
      alt="Robot"  />
 </div>
 
@@ -323,7 +323,7 @@ Based on the observed velocity in the graph, it was noticed that the speed was n
 
 Graph obtained:
 <div align = center>
-  <img src = "https://github.com/clases-julio/p5-mundogazebo-amadinabeitia2020/blob/main/fig/velGraph1.png"
+  <img src = "https://github.com/madinabeip/gazebo_simulation/blob/main/fig/velGraph1.png"
      alt="Robot"  />
 </div>
 
@@ -333,7 +333,7 @@ The desired velocity needs to be multiplied by 2 when publishing since the wheel
 In this [video](https://urjc-my.sharepoint.com/:v:/g/personal/a_madinabeitia_2020_alumnos_urjc_es/EYEM9hEfffFHrIrLtSdmIOgBdinoSxjK0qS2rcsQcmVBCw?e=2kWPhh) we obtain the next graph:
 
 <div align = center>
-  <img src = "https://github.com/clases-julio/p5-mundogazebo-amadinabeitia2020/blob/main/fig/graphic.png"
+  <img src = "https://github.com/madinabeip/gazebo_simulation/blob/main/fig/graphic.png"
      alt="Robot"  />
 </div>
 
@@ -358,7 +358,7 @@ This was done because the initial implementation was done pixel by pixel, and th
 3. The OpenCV image is converted back to a QPixmap to display it in the GUI.
 
 <div align = center>
-  <img src = "https://github.com/clases-julio/p5-mundogazebo-amadinabeitia2020/blob/main/fig/filter.png"
+  <img src = "https://github.com/madinabeip/gazebo_simulation/blob/main/fig/filter.png"
      alt="Robot"  />
 </div>
 
@@ -371,19 +371,12 @@ An attempt was made to display the graph from section 2 in real-time, but it req
 In the following image, we can see that when the cube is detected with the filter, a green square is displayed below. However, in the next image, the cube is not present, so the green square is not shown.
 
 <div align = center>
-  <img src = "https://github.com/clases-julio/p5-mundogazebo-amadinabeitia2020/blob/main/fig/interface2.png" alt="img1"  width=400px/>
-  <img src = "https://github.com/clases-julio/p5-mundogazebo-amadinabeitia2020/blob/main/fig/interface3.png" alt="img2"  width=400px/>
+  <img src = "https://github.com/madinabeip/gazebo_simulation/blob/main/fig/interface2.png" alt="img1"  width=400px/>
+  <img src = "https://github.com/madinabeip/gazebo_simulation/blob/main/fig/interface3.png" alt="img2"  width=400px/>
 </div>
 
 [Video filter](https://urjc-my.sharepoint.com/:v:/g/personal/a_madinabeitia_2020_alumnos_urjc_es/ETRumptmf1BIvdBijLuuwMYBhwEs284UX_e4f9HR08qg0Q?e=4Xka8W)
 
------------------------------------------------------------------------
-
------------------------------------------------------------------------
-
-## Comentario sobre la práctica
-
-Aunque al final se logró completar la práctica, sería deseable que ciertos materiales se proporcionaran completamente funcionales, como es el caso del Docker. Es cierto que a través de este proceso he aprendido mucho, pero podría considerarse injusto. Sin embargo también hay que tener en cuenta la dificil situación de la asignatura pero sería de ayuda más material.
 
 -----------------------------------------------------------------------
 
